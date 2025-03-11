@@ -7,12 +7,39 @@
         Console.WriteLine("Kode Produk: " + KodeProduk.GetKodeProduk(namaProduk));
 
         FanLaptop fan = new FanLaptop();
-        Console.WriteLine("\nSimulasi Mode Fan");
-        fan.setMode("Balanced");
-        fan.setMode("Performance");
-        fan.setMode("Turbo");
-        fan.setMode("Quiet");
-        fan.setMode("Ekstra");
+        Console.WriteLine("\nSimulasi Mode Fan ");
+        Console.WriteLine("Masukkan Mode : ");
+        string comms = Console.ReadLine();
+        fan.setMode(comms);
+
+        Console.WriteLine("Masukkan Mode : ");
+        comms = Console.ReadLine();
+        fan.setMode(comms);
+
+        Console.WriteLine("Masukkan Mode : ");
+        comms = Console.ReadLine();
+        fan.setMode(comms);
+
+        Console.WriteLine("Masukkan Mode : ");
+        comms = Console.ReadLine();
+        fan.setMode(comms);
+
+        Console.WriteLine("Masukkan Mode : ");
+        comms = Console.ReadLine();
+        fan.setMode(comms);
+
+        Console.WriteLine("Masukkan Mode : ");
+        comms = Console.ReadLine();
+        fan.setMode(comms);
+
+        Console.WriteLine("Masukkan Mode : ");
+        comms = Console.ReadLine();
+        fan.setMode(comms);
+
+        Console.WriteLine("Masukkan Mode : ");
+        comms = Console.ReadLine();
+        fan.setMode(comms);
+
 
     }
 
